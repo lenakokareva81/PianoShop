@@ -1,0 +1,179 @@
+{
+  "users": [
+    {
+      "id": "001",
+      "login": "anton",
+      "password": "qwe123",
+      "registed_at": "2025-05-21",
+      "role_id": 0
+    },
+    {
+      "id": "e28f",
+      "login": "ivan",
+      "password": "qwe123",
+      "registed_at": "1970-01-28 19:30",
+      "role_id": 1
+    },
+    {
+      "id": "397d",
+      "login": "ivan2",
+      "password": "qwe123",
+      "registed_at": "1970-01-30 06:12",
+      "role_id": 0
+    },
+    {
+      "id": "c9fb",
+      "login": "ivan3",
+      "password": "qwe123",
+      "registed_at": "1970-01-30 08:11",
+      "role_id": 2
+    }
+  ],
+  "roles": [
+    {
+      "id": "0",
+      "name": "администратор"
+    },
+    {
+      "id": "1",
+      "name": "модератор"
+    },
+    {
+      "id": "2",
+      "name": "читатель"
+    },
+    {
+      "id": "3",
+      "name": "гость"
+    }
+  ],
+  "product": [
+    {
+      "id": "001",
+      "title": "Цифровой рояль Yamaha Clavinova CVP-809 GP PE - чёрный полированный",
+      "description":"Задача организации, в особенности же перспективное планирование позволяет оценить значение распределения внутренних резервов и ресурсов. Ясность нашей позиции очевидна: курс на социально-ориентированный национальный проект однозначно фиксирует необходимость новых предложений. В рамках спецификации современных стандартов, реплицированные с зарубежных источников, современные исследования представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть своевременно верифицированы.",
+      "polyphony": 264,
+      "colors": [{"name":"светлый орех", "value":"#8B4513","price": 87990,"image_url": [
+        {
+          "imgUrl": "https://i5.storeland.net/2/5620/156196083/075a3e/yamaha-clp-765gpwh-cifrovoj-royal.jpg"
+        }
+       
+      ]},{"name":"красный", "value":"#800000","price": 87995,"image_url": [
+        {
+          "imgUrl": "https://avatars.mds.yandex.net/i?id=6dee871b0ca746516021d0acb57c044d848cf95f-5137308-images-thumbs&n=13"
+        }
+        
+      ]},{"name":"черный лакированный", "value":"#000000","price": 87999,"image_url": [
+        
+        {
+          "imgUrl": "https://i5.storeland.net/2/9770/197696972/afacdb/ringway-gdp-1120bk-cifrovoj-royal.jpg"
+        },
+        {
+          "imgUrl": "https://i2.storeland.net/2/6770/167693026/afacdb/ringway-gdp-1120bk-cifrovoj-royal.jpg"
+        }
+      ]},{"name":"черный", "value":"#000000","price": 87990,"image_url": [
+        
+        {
+          "imgUrl": "https://i5.storeland.net/2/9770/197696972/afacdb/ringway-gdp-1120bk-cifrovoj-royal.jpg"
+        },
+        {
+          "imgUrl": "https://i2.storeland.net/2/6770/167693026/afacdb/ringway-gdp-1120bk-cifrovoj-royal.jpg"
+        }
+      ]}],
+      "power": 224,
+      "timbres": 1124,
+      
+      "categories": [],
+      "available": true,
+      
+      "sizes": [
+        {"name":"длина, см",
+        "value":"155"},
+        {"name":"высота, см",
+        "value":91},
+        {"name":"ширина, см",
+        "value":123},
+        {"name":"вес, кг",
+        "value":92}
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "001",
+      "autor_id ": "001",
+      "Product_id": "001",
+      "content": "не так однозначно, как может показаться"
+    },
+    {
+      "id": "002",
+      "autor_id ": "001",
+      "Product_id": "001",
+      "content": "не так однозначно, как может показаться"
+    }
+  ],
+  "orders": [
+    {
+      "id": "864d",
+      "login": "anton",
+      "tel": "11111111111",
+      "registed_at": "1970-01-28 00:25"
+    },
+    {
+      "id": "2620",
+      "login": "lenakokareva",
+      "tel": "22222222222",
+      "idProducts": [],
+      "registed_at": "1970-01-30 11:20"
+    },
+    {
+      "id": "b150",
+      "login": "anton",
+      "tel": "1222222",
+      "idProducts": [],
+      "registed_at": "1970-01-29 15:56"
+    },
+    {
+      "id": "bc90",
+      "login": "sss",
+      "tel": "sss",
+      "idProducts": [],
+      "registed_at": "1970-01-30 01:25"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "b573",
+      "hash": "0.84650393672189849780806980561465024948120117187500",
+      "user": {
+        "id": "001",
+        "login": "anton",
+        "roleId": 0,
+        "password": "qwe123",
+        "registeredAt": "2025-05-21"
+      }
+    },
+    {
+      "id": "c74b",
+      "hash": "0.56799406706993704752051144168945029377937316894531",
+      "user": {
+        "id": "001",
+        "login": "anton",
+        "roleId": 0,
+        "password": "qwe123",
+        "registeredAt": "2025-05-21"
+      }
+    },
+    {
+      "id": "3193",
+      "hash": "0.04372787901995311976577340828953310847282409667969",
+      "user": {
+        "id": "001",
+        "login": "anton",
+        "roleId": 0,
+        "password": "qwe123",
+        "registeredAt": "2025-05-21"
+      }
+    }
+  ]
+}
